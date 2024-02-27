@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="TestProject1.dll" fullname="D:\SKV\Codes\Jenkins\26022024\Jenkins\JenkinsDemo\TestProject1\bin\Debug\net8.0\TestProject1.dll" runstate="Runnable" testcasecount="3" result="Passed" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2" engine-version="3.13.2.0" clr-version="8.0.0" start-time="2024-02-26 06:55:43Z" end-time="2024-02-26 06:55:43Z" duration="0.072783">
+  <command-line><![CDATA[D:\SKV\Codes\Jenkins\26022024\Jenkins\JenkinsDemo\TestProject1\bin\Debug\net8.0\testhost.dll --port 52061 --endpoint 127.0.0.1:052061 --role client --parentprocessid 15252 --telemetryoptedin false]]></command-line>
+  <test-suite type="Assembly" id="0-1004" name="TestProject1.dll" fullname="D:/SKV/Codes/Jenkins/26022024/Jenkins/JenkinsDemo/TestProject1/bin/Debug/net8.0/TestProject1.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-26T06:55:43.6996652Z" end-time="2024-02-26T06:55:43.7534152Z" duration="0.053698" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+    <environment framework-version="3.13.3.0" clr-version="8.0.0" os-version="Microsoft Windows 10.0.19045" platform="Win32NT" cwd="D:\SKV\Codes\Jenkins\26022024\Jenkins\JenkinsDemo\TestProject1\bin\Debug\net8.0" machine-name="RLP2121" user="kathirvel.selvam" user-domain="OFS1" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="735289727" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="D:\SKV\Codes\Jenkins\26022024\Jenkins\JenkinsDemo\TestProject1\bin\Debug\net8.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="_PID" value="21492" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1005" name="TestProject1" fullname="TestProject1" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-26T06:55:43.7051699Z" end-time="2024-02-26T06:55:43.7534022Z" duration="0.048235" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+      <test-suite type="TestFixture" id="0-1000" name="Tests" fullname="TestProject1.Tests" classname="TestProject1.Tests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2024-02-26T06:55:43.7065558Z" end-time="2024-02-26T06:55:43.7530105Z" duration="0.046458" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+        <test-case id="0-1002" name="Test_sayJenkins_1" fullname="TestProject1.Tests.Test_sayJenkins_1" methodname="Test_sayJenkins_1" classname="TestProject1.Tests" runstate="Runnable" seed="810408991" result="Passed" start-time="2024-02-26T06:55:43.7082776Z" end-time="2024-02-26T06:55:43.7210373Z" duration="0.012826" asserts="1" />
+        <test-case id="0-1003" name="Test_sayJenkins_2" fullname="TestProject1.Tests.Test_sayJenkins_2" methodname="Test_sayJenkins_2" classname="TestProject1.Tests" runstate="Runnable" seed="710571513" result="Passed" start-time="2024-02-26T06:55:43.7226825Z" end-time="2024-02-26T06:55:43.7231722Z" duration="0.000490" asserts="1" />
+        <test-case id="0-1001" name="Test1" fullname="TestProject1.Tests.Test1" methodname="Test1" classname="TestProject1.Tests" runstate="Runnable" seed="1378529972" result="Passed" start-time="2024-02-26T06:55:43.7232044Z" end-time="2024-02-26T06:55:43.7516814Z" duration="0.028480" asserts="0" />
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
