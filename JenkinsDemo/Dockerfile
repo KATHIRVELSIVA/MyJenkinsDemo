@@ -13,7 +13,7 @@ COPY ["JenkinsDemo.csproj", "JenkinsDemo/"]
 RUN dotnet restore "JenkinsDemo/./JenkinsDemo.csproj"
 COPY . .
 WORKDIR "/src/JenkinsDemo"
-RUN dotnet build "JenkinsDemo.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./JenkinsDemo.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
